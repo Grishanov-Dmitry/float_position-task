@@ -1,0 +1,135 @@
+body {
+    height: 2000px;
+    background-color: #fff;
+}
+
+h1 {
+    font-size: 24px;
+    margin-right: 14px;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 18px;
+    margin-top: 45px;
+    font-weight: 500;
+}
+
+p {
+    font-size: 12px;
+}
+
+.small_letters_p {
+    font-size: 9px;
+    text-align: center;
+}
+
+.central_block {
+    width: 516px;
+    height: 750px;
+    border: 2px solid #000000;
+    position: absolute;
+}
+
+.central_block_1 {
+    background-color: #ebebeb;
+    top: 200px;
+    left: 22%;
+    z-index: 5;
+    padding-top: 20px;
+    padding-left: 33px;
+    padding-right: 33px;
+    box-sizing: border-box;
+}
+
+.central_block_2 {
+    background-color: #cccccc;
+    top: 220px;
+    left: 24%;
+    z-index: 4;
+}
+
+.central_block_3 {
+    background-color: #acacac;
+    top: 240px;
+    left: 26%;
+    z-index: 1;
+}
+
+.bookmarks {
+    border: 2px solid black;
+    border-radius: 0 5px 5px 0;
+    height: 35px;
+    position: absolute;
+}
+
+.bookmarks_1 {
+    width: 110px;
+    background-color: #f68e56;    
+    right: -90px;
+    top: 40px;
+    z-index: 6;
+}
+
+.bookmarks_2 {
+    width: 80px;
+    background-color: #39b54a;
+    top: 50px;
+    right: -50px;
+    z-index: 3;    
+}
+
+.bookmarks_3 {
+    width: 35px;
+    background-color: #00aeef;
+    top: 60px;
+    right: -12px;
+    z-index: 2;
+}
+
+.img_1 {
+    width: 210px;
+    height: 110px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 16px;    
+}
+
+.img_2 {
+    width: 140px;
+    height: 140px;
+    float: right;
+}
+
+.humor_block {
+    overflow: hidden;    
+    margin-bottom: 25px;
+}
+
+.humor_img {
+    width: 195px;
+    height: 90px;
+}
+
+.humor_img_1, .humor_img_3 {
+    float: left;
+}
+
+.humor_img_2, .humor_img_4 {
+    float: right;
+}
+
+.humor_img_1, .humor_img_2 {
+    margin-bottom: 15px;
+}
+
+.social {
+    width: 90px;
+    height: 70px;
+    background-color: #fbaf5d;
+    border: 2px solid black;
+    text-align: center;
+    position: fixed;
+    right: 0;
+    top: 500px;
+}
